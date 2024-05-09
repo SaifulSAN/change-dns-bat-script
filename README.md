@@ -28,4 +28,4 @@ if /i "%myssid%"=="OfficeWifi123" (
 
 When used with Windows Task Scheduler, I just set the script to run when the event Microsoft-Windows-NetworkProfile/Operational Event ID 10000 fires, which is when the Windows machine connects to a network.
 
-[Image depicts a screenshot of my trigger edit, where the trigger listens to log "Microsoft-Windows-NetworkProfile/Operational", with the Event ID 10000](dns-script-img.png "dns-script-img")
+![Image depicts a screenshot of my trigger edit, where the trigger listens to log "Microsoft-Windows-NetworkProfile/Operational", with the Event ID 10000](dns-script-img.png "dns-script-img")
